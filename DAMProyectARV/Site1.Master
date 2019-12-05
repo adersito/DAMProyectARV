@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DAMProyectARV.Site1" EnableTheming="true" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="contenido_master">
+
+            <div id="cabecera">
+
+                <div id="contenidoCabecera">
+
+                    <div id="barraHorizontal">
+                        <label style="margin: auto;">Adrián Rodríguez Villatoro</label>
+                    </div>
+
+
+
+                    <div id="titulo">
+                        <h1>Proyecto DAM</h1>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="main">
+
+                <div id="barraMenu">
+
+                    <asp:ContentPlaceHolder ID="menu" runat="server">
+
+                        <div id="menu_aplicacion">
+
+                            <asp:Menu ID="Menu_Control" CssClass="menuApp" runat="server" Font-Names="Verdana" Width="100px" Font-Size="16px" ForeColor="Black" StaticSubMenuIndent="10px" Visible="true" meta:resourcekey="MenuPrincipalResource1">
+
+                                <Items>
+                                    <asp:MenuItem Text="Inicio" Value="Inicio" NavigateUrl="~/Inicio.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Ventas" Value="Ventas" Selectable="false">
+                                        <asp:MenuItem Text="Ventas" NavigateUrl="~/Ventas.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Devoluciones" NavigateUrl="~/Devoluciones.aspx"></asp:MenuItem>
+                                        <asp:MenuItem Text="Histórico Ventas"  NavigateUrl="~/HistoricoVentas.aspx"></asp:MenuItem>
+                                    </asp:MenuItem>
+
+                                </Items>
+
+                                <StaticMenuItemStyle HorizontalPadding="4px" VerticalPadding="1px" ItemSpacing="4px" BackColor="green" />
+                                <DynamicHoverStyle BackColor="red" ForeColor="Black" />
+                                <DynamicMenuStyle BackColor="Transparent" VerticalPadding="0px" />
+                                <StaticSelectedStyle BackColor="pink" />
+                                <DynamicSelectedStyle BackColor="orange" />
+                                <DynamicMenuItemStyle HorizontalPadding="1px" VerticalPadding="1px" ItemSpacing="4px" BackColor="blue" />
+                                <StaticHoverStyle BackColor="black" ForeColor="Black" />
+                                <StaticMenuStyle BackColor="White" VerticalPadding="0px" />
+
+                            </asp:Menu>
+                        </div>
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div id="mainContent">
+                    <div style="margin: 10px">
+                        <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="footer">
+
+                <div id="contenidoFooter">
+                    <span>Proyecto de fin de grado ©Adrián Rodríguez Villatoro</span>
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

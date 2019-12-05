@@ -1,0 +1,213 @@
+﻿@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#cabecera {
+    height: 150px;
+    background: linear-gradient(to bottom, #d53369, #cbad6d);
+    border: 1px groove;
+    border-color: grey;
+    box-shadow: 0px 0px 10px #000;
+    z-index: 10;
+}
+
+#hola {
+    color: blue;
+}
+
+#contenido_master {
+    position: absolute;
+    width: 100%;
+    margin: -6px;
+    overflow: hidden;
+}
+
+#contenidoCabecera {
+    width: 960px;
+    margin: auto;
+}
+
+.botonSimple {
+    color: floralwhite;
+    background-color: #FFE5E5;
+    height: 40px;
+    width: 260px;
+    padding: 5px 0px 5px 0px;
+    border: none 0px transparent;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'B612', sans-serif;
+    border-radius: 2px 2px 2px 2px;
+    text-align: center;
+    border: 1px solid #616060;
+}
+.botonSimpleSmall {
+    background-color: floralwhite;
+    height: 20px;
+    width: 70px;
+    font-family: 'B612', sans-serif;
+    padding-top: 3px;
+    border: none 0px transparent;
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 2px 2px 2px 2px;
+    text-align: center;
+    border: 1px solid #616060;
+}
+
+.botonCantidadModificar {
+    background-color: floralwhite;
+    height: 20px;
+    width: 20px;
+    font-family: 'B612', sans-serif;
+    padding-top: 3px;
+    border: none 0px transparent;
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 2px 2px 2px 2px;
+    text-align: center;
+    border: 1px solid #616060;
+}
+
+#barraHorizontal {
+    height: 40px;
+    background-color: #FADFDF;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 0px 10px #000 inset;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+    #barraHorizontal > label {
+        line-height: 35px;
+        font-family: 'B612', sans-serif;
+        font-size: 20px;
+        vertical-align: middle;
+        color: black;
+    }
+
+
+
+#titulo {
+    text-shadow: 2px 2px 3px #000;
+    text-align: center;
+    margin-top: 29px;
+    color: white;
+}
+
+
+
+    #titulo > h1 {
+        font-family: 'B612', sans-serif;
+    }
+
+#contenidoFooter {
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+}
+
+    #contenidoFooter > span {
+        font-size: 12px;
+        line-height: 30px;
+        vertical-align: middle;
+    }
+
+#barraMenu {
+    float: left;
+    width: 14%;
+    min-height: 752px;
+    background: linear-gradient(to bottom, #cbad6d, #DBECEC, white);
+    position: relative;
+    top: -1px;
+    left: 1px;
+    border: 1px groove;
+    border-top: none;
+    border-right-style: groove;
+    border-bottom-style: none;
+    border-left-style: groove;
+    margin: -1px;
+}
+
+#mainContent {
+    min-height: 750px;
+    float: left;
+    width: 86%;
+    /*position:relative;
+    right: -14%;*/
+    min-height: 750px;
+    background: linear-gradient(to bottom, #DBECEC, white, white);
+}
+
+#menu_aplicacion {
+    margin: auto;
+    border: 1px solid black;
+    width: 80%;
+}
+
+    #menu_aplicacion > ul > li {
+        margin: 2px;
+    }
+/*Ventas*/
+#ventasLabel {
+    text-shadow: 1px 1px 2px #000;
+    font-size: 50px;
+    margin-top: 36px;
+    margin-bottom: 40px;
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+
+.gridView {
+    font-family: 'B612', sans-serif;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    max-width: 1200px;
+    /*max-width: 800px;*/
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+ #tablaVentas{
+     margin-top:50px;
+ }
+
+    .gridView > td, th {
+        padding-left: 8px
+    }
+
+    .gridView > thead tr {
+        height: 60px;
+        background: #FFED86;
+        font-size: 16px;
+    }
+
+    .gridView > tbody tr {
+        height: 48px;
+        border-bottom: 1px solid #E3F1D5;
+    }
+
+#filaVentas {
+    font-family: 'B612', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footerGrid{
+    text-align:center;
+}
+

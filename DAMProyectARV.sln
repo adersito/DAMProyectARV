@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAMProyectARV", "DAMProyectARV\DAMProyectARV.csproj", "{708642DF-5B28-4F21-98F5-5FED38D40AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALC", "..\DALC\DALC\DALC.csproj", "{8FD4B73B-EB62-4B32-BDEB-EFD1741A2DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{708642DF-5B28-4F21-98F5-5FED38D40AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708642DF-5B28-4F21-98F5-5FED38D40AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708642DF-5B28-4F21-98F5-5FED38D40AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708642DF-5B28-4F21-98F5-5FED38D40AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD4B73B-EB62-4B32-BDEB-EFD1741A2DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD4B73B-EB62-4B32-BDEB-EFD1741A2DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD4B73B-EB62-4B32-BDEB-EFD1741A2DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD4B73B-EB62-4B32-BDEB-EFD1741A2DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A9A03CF-7488-468F-9FD8-737D2C8DD677}
+	EndGlobalSection
+EndGlobal
